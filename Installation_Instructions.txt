@@ -1,0 +1,9 @@
+
+**Instructions**
+- Install the Requirements: pip install -r prerequsites.txt
+- Then, make database migrations: python manage.py makemigrations
+- python manage.py migrate
+- And finally, run the application: python manage.py runserver
+
+Create one Admin user , using the following commands
+python manage.py createsuperuser
